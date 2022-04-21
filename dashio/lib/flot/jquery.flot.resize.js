@@ -1,1 +1,60 @@
-!function(t,e,i){var n,h=t([]),r=t.resize=t.extend(t.resize,{}),s="setTimeout",o="resize",a=o+"-special-event",u="delay",d="throttleWindow";function c(){n=e[s]((function(){h.each((function(){var e=t(this),i=e.width(),n=e.height(),h=t.data(this,a);i===h.w&&n===h.h||e.trigger(o,[h.w=i,h.h=n])})),c()}),r[u])}r[u]=250,r[d]=!0,t.event.special[o]={setup:function(){if(!r[d]&&this[s])return!1;var e=t(this);h=h.add(e),t.data(this,a,{w:e.width(),h:e.height()}),1===h.length&&c()},teardown:function(){if(!r[d]&&this[s])return!1;var e=t(this);h=h.not(e),e.removeData(a),h.length||clearTimeout(n)},add:function(e){if(!r[d]&&this[s])return!1;var n;function h(e,h,r){var s=t(this),o=t.data(this,a);o.w=h!==i?h:s.width(),o.h=r!==i?r:s.height(),n.apply(this,arguments)}if(t.isFunction(e))return n=e,h;n=e.handler,e.handler=h}}}(jQuery,this),jQuery.plot.plugins.push({init:function(t){function e(){var e=t.getPlaceholder();0!=e.width()&&0!=e.height()&&(t.resize(),t.setupGrid(),t.draw())}t.hooks.bindEvents.push((function(t,i){t.getPlaceholder().resize(e)})),t.hooks.shutdown.push((function(t,i){t.getPlaceholder().unbind("resize",e)}))},options:{},name:"resize",version:"1.0"});
+/*
+Flot plugin for automatically redrawing plots when the placeholder
+size changes, e.g. on window resizes.
+
+It works by listening for changes on the placeholder div (through the
+jQuery resize event plugin) - if the size changes, it will redraw the
+plot.
+
+There are no options. If you need to disable the plugin for some
+plots, you can just fix the size of their placeholders.
+*/
+
+
+/* Inline dependency: 
+ * jQuery resize event - v1.1 - 3/14/2010
+ * http://benalman.com/projects/jquery-resize-plugin/
+ * 
+ * Copyright (c) 2010 "Cowboy" Ben Alman
+ * Dual licensed under the MIT and GPL licenses.
+ * http://benalman.com/about/license/
+ */
+(function($,h,c){var a=$([]),e=$.resize=$.extend($.resize,{}),i,k="setTimeout",j="resize",d=j+"-special-event",b="delay",f="throttleWindow";e[b]=250;e[f]=true;$.event.special[j]={setup:function(){if(!e[f]&&this[k]){return false}var l=$(this);a=a.add(l);$.data(this,d,{w:l.width(),h:l.height()});if(a.length===1){g()}},teardown:function(){if(!e[f]&&this[k]){return false}var l=$(this);a=a.not(l);l.removeData(d);if(!a.length){clearTimeout(i)}},add:function(l){if(!e[f]&&this[k]){return false}var n;function m(s,o,p){var q=$(this),r=$.data(this,d);r.w=o!==c?o:q.width();r.h=p!==c?p:q.height();n.apply(this,arguments)}if($.isFunction(l)){n=l;return m}else{n=l.handler;l.handler=m}}};function g(){i=h[k](function(){a.each(function(){var n=$(this),m=n.width(),l=n.height(),o=$.data(this,d);if(m!==o.w||l!==o.h){n.trigger(j,[o.w=m,o.h=l])}});g()},e[b])}})(jQuery,this);
+
+
+(function ($) {
+    var options = { }; // no options
+
+    function init(plot) {
+        function onResize() {
+            var placeholder = plot.getPlaceholder();
+
+            // somebody might have hidden us and we can't plot
+            // when we don't have the dimensions
+            if (placeholder.width() == 0 || placeholder.height() == 0)
+                return;
+
+            plot.resize();
+            plot.setupGrid();
+            plot.draw();
+        }
+        
+        function bindEvents(plot, eventHolder) {
+            plot.getPlaceholder().resize(onResize);
+        }
+
+        function shutdown(plot, eventHolder) {
+            plot.getPlaceholder().unbind("resize", onResize);
+        }
+        
+        plot.hooks.bindEvents.push(bindEvents);
+        plot.hooks.shutdown.push(shutdown);
+    }
+    
+    $.plot.plugins.push({
+        init: init,
+        options: options,
+        name: 'resize',
+        version: '1.0'
+    });
+})(jQuery);
