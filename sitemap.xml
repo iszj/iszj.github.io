@@ -468,7 +468,14 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/tags/%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6/</loc>
+    <loc>https://www.songzj.com/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.songzj.com/tags/Github/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -482,14 +489,7 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.songzj.com/tags/Github/</loc>
+    <loc>https://www.songzj.com/tags/%E6%96%87%E6%9C%AC%E7%9B%B8%E4%BC%BC%E5%BA%A6/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -575,13 +575,6 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/categories/%E7%9B%B8%E4%BC%BC%E5%BA%A6%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.songzj.com/categories/GitHub/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -589,7 +582,7 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/categories/Markdown%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.songzj.com/categories/%E7%9B%B8%E4%BC%BC%E5%BA%A6%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -597,6 +590,13 @@
   
   <url>
     <loc>https://www.songzj.com/categories/Python%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.songzj.com/categories/Markdown%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
