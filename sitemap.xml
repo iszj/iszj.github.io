@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/categories/</loc>
+    <loc>https://www.songzj.com/link/</loc>
     
     <lastmod>2020-06-07</lastmod>
     
@@ -299,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/link/</loc>
+    <loc>https://www.songzj.com/categories/</loc>
     
     <lastmod>2020-06-07</lastmod>
     
@@ -335,6 +335,13 @@
 
   
   <url>
+    <loc>https://www.songzj.com/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.songzj.com/tags/Normalization/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -356,7 +363,14 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/tags/%E7%AE%97%E6%B3%95/</loc>
+    <loc>https://www.songzj.com/tags/crontab/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.songzj.com/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -377,13 +391,6 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.songzj.com/tags/shell-%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -398,14 +405,14 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/tags/Shell/</loc>
+    <loc>https://www.songzj.com/tags/Bert/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.songzj.com/tags/Bert/</loc>
+    <loc>https://www.songzj.com/tags/Shell/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -427,6 +434,13 @@
   
   <url>
     <loc>https://www.songzj.com/tags/Albert/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.songzj.com/tags/Roberta/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -461,6 +475,13 @@
   </url>
   
   <url>
+    <loc>https://www.songzj.com/tags/Transformer/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.songzj.com/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -489,14 +510,7 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/tags/crontab/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.songzj.com/tags/Roberta/</loc>
+    <loc>https://www.songzj.com/tags/%E5%AE%9E%E7%9B%98/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -504,6 +518,13 @@
   
   <url>
     <loc>https://www.songzj.com/tags/Python/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.songzj.com/tags/pyinstaller/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -523,28 +544,14 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://www.songzj.com/tags/%E5%AE%9E%E7%9B%98/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.songzj.com/tags/Transformer/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.songzj.com/tags/pyinstaller/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
+  
+  <url>
+    <loc>https://www.songzj.com/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://www.songzj.com/categories/linux/</loc>
@@ -582,7 +589,7 @@
   </url>
   
   <url>
-    <loc>https://www.songzj.com/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.songzj.com/categories/Markdown%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -590,13 +597,6 @@
   
   <url>
     <loc>https://www.songzj.com/categories/Python%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-04-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.songzj.com/categories/Markdown%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
